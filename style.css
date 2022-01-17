@@ -43,6 +43,10 @@ button{
     font-size: 16px;
     color: white;
     padding: 10px 24px;
+   
+}
+button:hover{
+    transform: scale(2);
 }
 .journey{
     display: flex;
@@ -60,4 +64,87 @@ section{
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 170px;
+}
+.section-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+.action-camera img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    
+}
+.title{
+    font-weight: 500;
+    font-size: 28px;
+}
+.image-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star.filled{
+    color: rgb(247, 117, 71);
+    width: 16px;
+    height: 16px;
+}
+.fa-star.empty{
+     color: rgb(99, 96, 95);
+     width: 16px;
+     height: 16px;
+}
+.paragraph{
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 280px;
+    margin-top: 80px;
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 329px;
+    height: 600px;
+    margin-bottom: 30px;
+    padding-left: 26px;
+    padding-top: 26px;
+}
+h4{
+    color: #E02C6D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.background{
+    background-color: rgb(2, 2, 34);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 14px;
+}
+.fab{
+    margin-right: 20px;
+    text-align: center;
+}
+.rated{
+    text-align: center;
+    margin-bottom: 40px;
+   
+}
+.big{
+     color: rgb(247, 117, 71);
+   font-size:xx-large;
 }
